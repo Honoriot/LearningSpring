@@ -72,3 +72,28 @@
     </property>
 </bean>
 ```
+
+## Injecting Reference Type
+
+Consider two classes *class A* and *class B*. Class *A* is dependent on class *B*
+
+```java
+class A{
+    private int id;
+    private B objectB;
+}
+class B{
+    private int id;
+}
+```
+For this case we need to create a reference bean of *B* that can be passes to bean property of *A*.
+
+```xml
+<bean class="B" name="objectB" p:id="1789"/>
+
+<bean class="A" name="objectA" p:id="2567">
+    <property name="objectB">
+        <ref bean="objectB"/>
+    </property>
+</bean>
+```
