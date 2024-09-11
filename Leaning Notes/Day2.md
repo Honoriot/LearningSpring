@@ -143,3 +143,6 @@ public class App {
 Here is the final project files structure.
 
 ![alt text](image2.png)
+
+***HAPPY LEARNING***  
+[**Click**](/Leaning%20Notes/Day3.md) for Next Day

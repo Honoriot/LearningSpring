@@ -92,3 +92,6 @@ class Address{
 
 ## Configuration File
 Where we declare beans and its dependency.
+
+***HAPPY LEARNING***  
+[**Click**](/Leaning%20Notes/Day2.md) for Next Day
